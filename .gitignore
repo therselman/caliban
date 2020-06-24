@@ -1,0 +1,7 @@
+logs
+*.logs
+
+node_modules/
+build/
+
+.env

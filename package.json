@@ -1,0 +1,39 @@
+{
+	"name": "caliban",
+	"version": "0.0.1",
+	"description": "High performance HTTP web server",
+	"main": "index.js",
+	"scripts": {
+		"install": "node-gyp rebuild"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/therselman/caliban.git"
+	},
+	"keywords": [
+		"c",
+		"c++",
+		"web",
+		"http",
+		"rest",
+		"restful",
+		"router",
+		"app",
+		"api",
+		"n-api"
+	],
+	"author": "Trevor Herselman",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/therselman/caliban/issues"
+	},
+	"homepage": "https://github.com/therselman/caliban#readme",
+	"devDependencies": {
+		"node-gyp": "^7.0.0"
+	},
+	"dependencies": {
+		"bindings": "^1.5.0",
+		"node-addon-api": "^3.0.0"
+	},
+	"gypfile": true
+}
